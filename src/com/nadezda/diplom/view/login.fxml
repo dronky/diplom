@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="349.0" prefWidth="494.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nadezda.diplom.controller.LoginController">
+   <children>
+      <Label fx:id="lbl1" layoutX="193.0" layoutY="14.0" text="Добро пожаловать!" />
+      <Label layoutX="134.0" layoutY="154.0" text="Пароль:" />
+      <PasswordField fx:id="pfPassword" layoutX="187.0" layoutY="150.0" />
+      <TextField fx:id="tfLogin" layoutX="187.0" layoutY="111.0" />
+      <Button fx:id="btnLogin" layoutX="354.0" layoutY="238.0" mnemonicParsing="false" onAction="#btnClick" text="Войти" />
+      <Label layoutX="138.0" layoutY="115.0" text="Логин:" />
+   </children>
+</AnchorPane>
